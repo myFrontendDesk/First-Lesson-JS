@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 -Variable</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <script src="js/app-tut.js"></script>   -->    
+    
+</head>
+
+<body >  
+    <p id="demo"></p>
+    <p class="demo"></p>
+    <script>
+        let x = 16 + 4 + "Volvoclass";
+        document.getElementById("demo").innerHTML = x;        
+        document.getElementsByClassName("demo").innerHTML=x;
+    </script>
+
+
+<script>        
+
+// var : Variable can be re-declared & updated. A global scope variable.
+//Jo cheez change ho sake --very ho shake woh variable
+// let : Variable cannot be re-declared but can be updated. A block scope variable.
+// const : Variable cannot be re-declared or updated. A block scope variabl
+    fullID=123;
+    var fullName= "chirag";
+    let lastName="vadaria1";
+    const middleName="Kantibhai";
+
+    //var
+    //var fullName= "chirag2";
+    
+    //Const
+    
+    // {
+    // let lastName= "vadaria2";
+    // console.log(lastName);
+   
+    // }
+    
+    
+
+    // console.log(fullName);
+    console.log(fullID);
+    console.log(lastName);
+    console.log(middleName);
+
+    //Console method
+    console.log(typeof (fullName));
+
+    //Console table
+    console.table([fullName, middleName, lastName,])
+   
+
+</script>
+</body>
+
+    
+
+    
+</html>
+
+

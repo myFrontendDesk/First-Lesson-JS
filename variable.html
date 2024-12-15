@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        // Block variable
+        {
+            let a = 10;            
+            console.log(a);
+        }
+        {
+            let  a= 10;            
+            console.log(a);
+        }
+    </script>
+    
+</head>
+    <body onload=()>    
+        <div class="w-100">
+        <button class="btn" onclick="clickButton()">Click me</button>
+        </div>
+        
+        <script text="javascript">
+            function checkVariable( ) {
+            // local variable declaration and initialization
+            var myVar = "ToolsQA";
+         }                 
+        
+        function clickButton(){
+            // try accessing local variable in another method
+            alert(myVar);
+        }    
+        </script>
+
+    </body>    
+</html>
+
+
